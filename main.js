@@ -135,7 +135,7 @@ type=Number(localStorage.getItem("Sel_type"));
 i=Number(localStorage.getItem("i"));
 sector=Number(localStorage.getItem("sector"))
 
-var textarea = document.querySelector('formbox');
+var textarea = document.querySelector('#formbox');
 textarea.scrollTop = 1;
 
 window.addEventListener('touchmove', function(event) {
