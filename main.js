@@ -194,9 +194,11 @@ function load(){
     divB.innerHTML = '';
     const audioA = new Audio("./audio/"+typeMap[type]+"/"+sectorMap[sector]+"/"+pairs[typeMap[type]][sectorMap[sector]][String(i+1)]["A"]);
     audioA.controls = true;
+    audioA.volume = 0.8;
     divA.appendChild(audioA);
     const audioB = new Audio("./audio/"+typeMap[type]+"/"+sectorMap[sector]+"/"+pairs[typeMap[type]][sectorMap[sector]][String(i+1)]["B"])
     audioB.controls = true;
+    audioB.volume = 0.8;
     divB.appendChild(audioB);
 
     const prev = document.getElementById("prev");
