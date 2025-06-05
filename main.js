@@ -187,7 +187,7 @@ function load(){
         localStorage.setItem("Sel_type", String(type));//回答するアンケートの識別番号(0,1,2……)
     }
     document.getElementById("QCounter").innerText = "パート"+String(sector+1)+"回答番号"+String(i+1);
-    /*
+    
     const divA = document.getElementById("audioA");
     const divB = document.getElementById("audioB");
     divA.innerHTML = '';
@@ -198,7 +198,7 @@ function load(){
     const audioB = new Audio("audio/"+typeMap[type]+"/"+sectorMap[sector]+"/"+pairs[typeMap[type]][sectorMap[sector]][String(i+1)]["B"])
     audioB.controls = true;
     divB.appendChild(audioB);
-*/
+
     const prev = document.getElementById("prev");
     const partprev = document.getElementById("partprev");
     if(i==0){
