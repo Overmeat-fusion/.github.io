@@ -1,7 +1,167 @@
 const pairs = {
-
+ "1": {
+  "So": {
+   "1": {
+    "A": "1s_huf.mp3",
+    "B": "1s_hum.mp3"
+   },
+   "2": {
+    "A": "1s_huf.mp3",
+    "B": "1s_vxf.mp3"
+   },
+   "3": {
+    "A": "1s_huf.mp3",
+    "B": "1s_vxm.mp3"
+   },
+   "4": {
+    "A": "1s_hum.mp3",
+    "B": "1s_vxf.mp3"
+   },
+   "5": {
+    "A": "1s_hum.mp3",
+    "B": "1s_vxm.mp3"
+   },
+   "6": {
+    "A": "1s_vxf.mp3",
+    "B": "1s_vxm.mp3"
+   }
+  },
+  "Te": {
+   "1": {
+    "A": "1t_huf.mp3",
+    "B": "1t_hum.mp3"
+   },
+   "2": {
+    "A": "1t_huf.mp3",
+    "B": "1t_vxf.mp3"
+   },
+   "3": {
+    "A": "1t_huf.mp3",
+    "B": "1t_vxm.mp3"
+   },
+   "4": {
+    "A": "1t_hum.mp3",
+    "B": "1t_vxf.mp3"
+   },
+   "5": {
+    "A": "1t_hum.mp3",
+    "B": "1t_vxm.mp3"
+   },
+   "6": {
+    "A": "1t_vxf.mp3",
+    "B": "1t_vxm.mp3"
+   }
+  }
+ },
+ "2": {
+  "So": {
+   "1": {
+    "A": "2s_huf.mp3",
+    "B": "2s_hum.mp3"
+   },
+   "2": {
+    "A": "2s_huf.mp3",
+    "B": "2s_vxf.mp3"
+   },
+   "3": {
+    "A": "2s_huf.mp3",
+    "B": "2s_vxm.mp3"
+   },
+   "4": {
+    "A": "2s_hum.mp3",
+    "B": "2s_vxf.mp3"
+   },
+   "5": {
+    "A": "2s_hum.mp3",
+    "B": "2s_vxm.mp3"
+   },
+   "6": {
+    "A": "2s_vxf.mp3",
+    "B": "2s_vxm.mp3"
+   }
+  },
+  "Te": {
+   "1": {
+    "A": "2t_huf.mp3",
+    "B": "2t_hum.mp3"
+   },
+   "2": {
+    "A": "2t_huf.mp3",
+    "B": "2t_vxf.mp3"
+   },
+   "3": {
+    "A": "2t_huf.mp3",
+    "B": "2t_vxm.mp3"
+   },
+   "4": {
+    "A": "2t_hum.mp3",
+    "B": "2t_vxf.mp3"
+   },
+   "5": {
+    "A": "2t_hum.mp3",
+    "B": "2t_vxm.mp3"
+   },
+   "6": {
+    "A": "2t_vxf.mp3",
+    "B": "2t_vxm.mp3"
+   }
+  }
+ },
+ "3": {
+  "So": {
+   "1": {
+    "A": "3s_huf.mp3",
+    "B": "3s_hum.mp3"
+   },
+   "2": {
+    "A": "3s_huf.mp3",
+    "B": "3s_vxf.mp3"
+   },
+   "3": {
+    "A": "3s_huf.mp3",
+    "B": "3s_vxm.mp3"
+   },
+   "4": {
+    "A": "3s_hum.mp3",
+    "B": "3s_vxf.mp3"
+   },
+   "5": {
+    "A": "3s_hum.mp3",
+    "B": "3s_vxm.mp3"
+   },
+   "6": {
+    "A": "3s_vxf.mp3",
+    "B": "3s_vxm.mp3"
+   }
+  },
+  "Te": {
+   "1": {
+    "A": "3t_huf.mp3",
+    "B": "3t_hum.mp3"
+   },
+   "2": {
+    "A": "3t_huf.mp3",
+    "B": "3t_vxf.mp3"
+   },
+   "3": {
+    "A": "3t_huf.mp3",
+    "B": "3t_vxm.mp3"
+   },
+   "4": {
+    "A": "3t_hum.mp3",
+    "B": "3t_vxf.mp3"
+   },
+   "5": {
+    "A": "3t_hum.mp3",
+    "B": "3t_vxm.mp3"
+   },
+   "6": {
+    "A": "3t_vxf.mp3",
+    "B": "3t_vxm.mp3"
+   }
+  }
+ }
 }
-
 const listlen = 15;
 const urllist = {
     "1":{"So":"https://docs.google.com/forms/d/e/1FAIpQLSdmrViutbc3WCRDROVogNmwWgPHHWNTXTJnVkT3zW7lXcn0KA/viewform?embedded=true", "Te":"https://docs.google.com/forms/d/e/1FAIpQLScnUDx58qlPpb_6YKnuHPBfsmDSIjt1iE1HBM5r5uG3hulv1A/viewform?embedded=true"},
