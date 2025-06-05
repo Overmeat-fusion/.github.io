@@ -162,7 +162,7 @@ const pairs = {
   }
  }
 }
-const listlen = 15;
+const listlen = 6;
 const urllist = {
     "1":{"So":"https://docs.google.com/forms/d/e/1FAIpQLSdmrViutbc3WCRDROVogNmwWgPHHWNTXTJnVkT3zW7lXcn0KA/viewform?embedded=true", "Te":"https://docs.google.com/forms/d/e/1FAIpQLScnUDx58qlPpb_6YKnuHPBfsmDSIjt1iE1HBM5r5uG3hulv1A/viewform?embedded=true"},
     "2":{"So":"https://forms.gle/5Z7BtAWS7LaoD3LQ7?embedded=true", "Te":"https://forms.gle/zxMaWsHijFih8VHV8?embedded=true"},
