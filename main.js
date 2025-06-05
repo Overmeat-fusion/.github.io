@@ -192,10 +192,10 @@ function load(){
     const divB = document.getElementById("audioB");
     divA.innerHTML = '';
     divB.innerHTML = '';
-    const audioA = new Audio("audio/"+typeMap[type]+"/"+sectorMap[sector]+"/"+pairs[typeMap[type]][sectorMap[sector]][String(i+1)]["A"]);
+    const audioA = new Audio("./audio/"+typeMap[type]+"/"+sectorMap[sector]+"/"+pairs[typeMap[type]][sectorMap[sector]][String(i+1)]["A"]);
     audioA.controls = true;
     divA.appendChild(audioA);
-    const audioB = new Audio("audio/"+typeMap[type]+"/"+sectorMap[sector]+"/"+pairs[typeMap[type]][sectorMap[sector]][String(i+1)]["B"])
+    const audioB = new Audio("./audio/"+typeMap[type]+"/"+sectorMap[sector]+"/"+pairs[typeMap[type]][sectorMap[sector]][String(i+1)]["B"])
     audioB.controls = true;
     divB.appendChild(audioB);
 
